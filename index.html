@@ -225,7 +225,7 @@
             background-color: var(--primary-dark);
         }
 
-        .cart-modal {
+       .cart-modal {
             position: fixed;
             top: 72px;
             right: 1rem;
@@ -367,9 +367,8 @@
             }
 
             .cart-modal {
-                width: 92vw;
-                margin: 0 auto;
-                margin-top: 20px;
+               left: 50%; /* Centers the modal horizontally */
+               transform: translateX(-50%) translateY(-1rem);
             }
         }
     </style>
