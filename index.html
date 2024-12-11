@@ -224,15 +224,8 @@
         .add-to-cart-btn:hover {
             background-color: var(--primary-dark);
         }
-        
-        @media (min-width: 768px) {
-        .cart-modal {
-            right: 1rem; /* Keeps the modal to the right of the screen */
-            left: unset;  /* Ensures no centering */
-            }
-        }
 
-       .cart-modal {
+        .cart-modal {
             position: fixed;
             top: 72px;
             right: 1rem;
@@ -374,8 +367,9 @@
             }
 
             .cart-modal {
-               left: 50%; /* Centers the modal horizontally */
-               transform: translateX(-50%) translateY(-1rem);
+                width: 92vw;
+                margin: 0 auto;
+                margin-top: 20px;
             }
         }
     </style>
@@ -556,4 +550,3 @@
     </script>
 </body>
 </html>
-
