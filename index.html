@@ -224,6 +224,13 @@
         .add-to-cart-btn:hover {
             background-color: var(--primary-dark);
         }
+        
+        @media (min-width: 768px) {
+        .cart-modal {
+            right: 1rem; /* Keeps the modal to the right of the screen */
+            left: unset;  /* Ensures no centering */
+            }
+        }
 
        .cart-modal {
             position: fixed;
